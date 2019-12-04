@@ -44,3 +44,5 @@ def register_user(request):
         e_msg="Invalid Entry"
         return render(request,"bbapp/register.html",{'e_msg':e_msg})
 
+def login_user(request):
+    return render(request,"bbapp/login.html")
